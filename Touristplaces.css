@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page1 {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+/* header styling here */
+.header {
+  width: 100vw;
+  height: 10vh;
+  background-color: whitesmoke;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+  border: 1px solid transparent(0, 0, 0);
+  box-shadow: 0px 0px 3px 2px rgb(139, 136, 136);
+  font-size: 18px;
+}
+#desc {
+  width: 50vw;
+}
+.header section img {
+  width: 150px;
+  height: 80px;
+}
+.header section {
+  display: flex;
+}
+.header section li {
+  padding: 12px;
+  margin-left: 3%;
+  list-style: none;
+  color: black;
+}
+.header section li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+/* pagecontent*/
+.pagecontent {
+  margin-top: 8%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.carddetails {
+  width: 350px;
+  height: 500px;
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1.3%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 2px rgb(206, 203, 203);
+  padding: 5px;
+}
+.carddetails p {
+  font-size: medium;
+  padding: 6px;
+}
+.carddetails button {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px 2px grey;
+  background-color: transparent;
+  margin: 0.5%;
+  padding: 2px;
+  cursor: pointer;
+}
+.carddetails h4,
+h3 {
+  padding: 3px;
+}
+#img1 {
+  width: 339px;
+  height: 315px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 700px) {
+  .header section li {
+    padding: 2px;
+    font-size: small;
+  }
+  .header {
+    justify-content: center;
+    height: 8vh;
+  }
+  .header img {
+    display: none;
+  }
+
+  .pagecontent {
+    margin-top: 25%;
+  }
+  .carddetails {
+    margin-top: 12%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .pagecontent {
+    margin-top: 5%;
+  }
+  .carddetails {
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .pagecontent {
+    margin-top: 15%;
+  }
+  .carddetails {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+ .pagecontent {
+    margin-top: 15%;
+  }
+  .carddetails {
+    margin-top: 5%;
+  }
+}

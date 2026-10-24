@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page1 {
+  width: 100vw;
+  height: 100vh;
+  background: url("images/bali.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+/* header styling here */
+.header {
+  width: 100vw;
+  height: 10vh;
+  background-color: whitesmoke;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+  border: 1px solid transparent(0, 0, 0);
+  box-shadow: 0px 0px 3px 2px rgb(139, 136, 136);
+  font-size: 18px;
+}
+#desc {
+  width: 50vw;
+}
+.header section img {
+  width: 150px;
+  height: 80px;
+}
+.header section {
+  display: flex;
+}
+.header section li {
+  padding: 12px;
+  margin-left: 3%;
+  list-style: none;
+  color: black;
+}
+.header section li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+/* page 1 content stylimng here */
+.page1content {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px black;
+}
+
+#placename {
+  font-size: 45px;
+}
+.page1content h1,
+h3,
+h4,
+button {
+  margin-top: 4.2%;
+  margin-left: 1%;
+}
+
+#btn {
+  width: 150px;
+  height: 40px;
+  border: transparent;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 0px 0px 8px 2px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* page 2 styling */
+
+.page2 {
+  width: 100vw;
+  height: 88vh;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.page2contents {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+.page2contentbox {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.page2contentbox section {
+  width: 30vw;
+  height: 60vh;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+  box-shadow: 0px 0px 2px 1px grey;
+}
+.page2contentbox section img {
+  width: 30vw;
+  height: 60vh;
+  border-radius: 20px;
+}
+#btn1 {
+  width: 150px;
+  height: 40px;
+  border: transparent;
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 0px 0px 8px 2px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* page3 styling  */
+.page3 {
+  width: 100vw;
+  height: 100vh;
+  background: url("images/page3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-direction: column;
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px black;
+}
+/* page 4 styling */
+.page4 {
+  width: 100vw;
+  height: 80vh;
+}
+.page4top {
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+
+.page4content {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.page4content section {
+  width: 25vw;
+  height: 50vh;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 26px;
+  box-shadow: 0px 0px 15px 3px rgb(208, 208, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.page4content img {
+  width: 12vw;
+  height: 15vh;
+  border-radius: 200%;
+}
+.page4content h3 {
+  color: yellow;
+  padding: 3px;
+}
+.page4content h3 i {
+  padding: 5px;
+}
+.page4content h4 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+/*page5 styling */
+.page5 {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  text-transform: capitalize;
+}
+#page5sec1 {
+  width: 50vw;
+  height: 40vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+#page5sec1 h2 {
+  font-size: 45px;
+  font-weight: 200;
+}
+#page5sec2 {
+  width: 50vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page5sec2 iframe {
+  width: 35vw;
+  height: 40vh;
+  border-radius: 8px;
+}
+
+/*footer styling*/
+.footer {
+  width: 100vw;
+  height: 40vh;
+  background-color: black;
+  color: white;
+   font-family: "Alan Sans", sans-serif;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+
+.topfooter {
+  width: 100vw;
+  height: 13vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-align: center;
+  
+  
+}
+.midfooter {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+.midfooter section {
+  text-align: center;
+  width: 20vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.midfooter a{
+  text-decoration: none;
+  color: white;
+}
+.bottomfooter {
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+@media screen and (max-width: 600px) {
+  .header section li {
+    padding: 2px;
+    font-size: small;
+  }
+  .header {
+    justify-content: center;
+    height: 8vh;
+  }
+  .header img {
+    display: none;
+  }
+  .page1 {
+    background-size: cover;
+    background-clip: content-box;
+  }
+  #placename {
+    font-size: 30px;
+  }
+  .page1content {
+    justify-content: baseline;
+    align-items: start;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+  }
+  .page1content button {
+    width: 100px;
+    height: 23px;
+  }
+
+  /* PAGE2 MEDIA QUERRY */
+
+  .page2contentbox {
+    width: 40vw;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .page2contentbox section {
+    width: 60vw;
+    height: 32vh;
+    font-size: 8px;
+    align-items: center;
+    border: 2px solid black;
+    margin: 4%;
+  }
+  .page2contentbox section img {
+    width: 60vw;
+    height: 32vh;
+  }
+  #btn1 {
+    width: 80px;
+    height: 19px;
+    font-size: 8px;
+  }
+
+  /* page 3*/
+
+  .page3 {
+    height: 50vh;
+    font-size: 8px;
+  }
+
+  /* page4*/
+  .page4 {
+    height: 80vh;
+  }
+  .page4top {
+    font-size: 10px;
+  }
+  .page4content {
+    flex-direction: column;
+  }
+  .page4content section {
+    width: 70vw;
+    height: 25vh;
+  }
+  .page4content h4 {
+    font-size: 12px;
+  }
+  .page4content img {
+    width: 20vw;
+    height: 12vh;
+    border-radius: 200%;
+  }
+
+  /*page 5*/
+
+  #page5sec1 {
+    width: 25vw;
+  }
+
+  #page5sec2 {
+    width: 25vw;
+  }
+  #page5sec1 h2 {
+    font-size: 15px;
+  }
+  #page5sec2 iframe {
+    width: 40vw;
+    height: 30vh;
+  }
+
+
+  /*footer */
+  .footer{
+    font-size: 8px;
+    height: 30vh;
+  }
+  .topfooter{
+    height: 10vh;
+  }
+  .midfooter{
+    height: 10vh;
+  }
+  .midfooter section{
+    width: 25vw;
+  }
+  
+}
